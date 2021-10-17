@@ -1,0 +1,71 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+/**here starts the header section */
+
+.header {
+	background-color: #1f2937;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 200px;
+}
+.header .top {
+	display: flex;
+	justify-content: space-between;
+}
+.header .top .logo {
+	font-size: 24px;
+	color: #f9faf8;
+	font-weight: bold;
+}
+.header .top .links {
+	display: flex;
+	gap: 8px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: #e5e7eb;
+}
+.header .bottom {
+	display: flex;
+	gap: 20px;
+	padding: 100px 0;
+}
+
+.header .bottom .left {
+	flex: 1 1 0;
+}
+
+.header .bottom .left h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+	margin: 0;
+}
+.header .bottom .left p {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+.header .bottom .left button {
+	background-color: #3882f6;
+	padding: 5px 30px;
+	border: 0;
+	color: #f9faf8;
+	font-weight: bold;
+	border-radius: 25px;
+}
+.header .bottom .right {
+	display: flex;
+	flex: 1 1 0;
+	background-color: #f9faf8ce;
+	align-items: center;
+	justify-content: center;
+}
+
+/**here ends the header section*/
