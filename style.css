@@ -126,3 +126,9 @@ a {
 	align-items: center;
 	padding: 100px 200px;
 }
+
+.quote .text {
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+}
