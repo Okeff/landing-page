@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /**here starts the header section */
@@ -82,4 +83,34 @@ a {
 	font-size: 36px;
 	font-weight: bolder;
 	color: #1f2937;
+}
+
+.info .cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+.info .cards .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 120px;
+	height: auto;
+}
+
+.info .cards .card .image {
+	width: 120px;
+	height: 120px;
+	border: 3px solid #3882f6;
+	border-radius: 25px;
+}
+
+.info .cards .card .text {
+	font-size: 15px;
+	text-align: center;
+	color: #1f2937;
+	margin: 10px;
 }
