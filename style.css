@@ -114,3 +114,15 @@ a {
 	color: #1f2937;
 	margin: 10px;
 }
+/**here ends the info section*/
+
+/**here starts the quote section*/
+
+.quote {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 200px;
+}
