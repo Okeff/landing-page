@@ -132,3 +132,8 @@ a {
 	font-style: italic;
 	color: #1f2937;
 }
+.quote .author {
+	font-weight: bolder;
+	color: #1f2937;
+	align-self: flex-end;
+}
