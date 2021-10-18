@@ -179,3 +179,13 @@ a {
 	margin-top: 0;
 	font-size: medium;
 }
+/**here ends the modal section*/
+
+/**here starts the footer section*/
+
+footer {
+	background-color: #1f2937;
+	text-align: center;
+	padding: 20px;
+	color: #f9faf8;
+}
