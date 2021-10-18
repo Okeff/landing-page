@@ -69,3 +69,10 @@ a {
 }
 
 /**here ends the header section*/
+
+/**here starts the info section*/
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
