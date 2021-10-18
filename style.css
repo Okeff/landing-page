@@ -138,3 +138,21 @@ a {
 	color: #1f2937;
 	align-self: flex-end;
 }
+
+/**here ends the quote section*/
+
+/**here starts the modal section*/
+
+.modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 50px;
+}
+
+.modal .container {
+	display: flex;
+	background-color: #3882f6;
+	padding: 10px;
+	gap: 10px;
+}
